@@ -1,0 +1,125 @@
+        body {
+            font-family: roboto;
+            font-weight: 400;
+            font-size: 14px;
+            background-color: white;
+        }
+        
+        .login-table {
+            margin-top: 30px;
+        }
+        
+        .login-button {
+            width: 150px;
+            padding: 7px;
+            background-color: tomato;
+            color: white;
+            font-family: inherit;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+        }
+        
+        .title {
+            font-family: inherit;
+            font-size: 20px;
+        }
+        
+        .categories {
+            font-size: 16px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .categories:hover {
+            color: tomato
+        }
+        
+        .deals-container {
+            display: inline-block;
+            align-self: center;
+            width: 60%;
+            align-items: top;
+            vertical-align: top;
+            padding: 50px;
+            margin-top: 00px;
+        }
+        
+        .deals-item {
+            display: inline-block;
+            border: 1px solid rgb(232, 232, 232);
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            vertical-align: top;
+            color: black;
+            margin: 10px;
+            background-color: white;
+        }
+        
+        .item-cart-trash {
+            font-size: 20px;
+            font-weight: 500;
+            vertical-align: bottom;
+            align-items: middle;
+            color: black;
+            outline: none;
+            border: none;
+            background: none;
+        }
+        
+        .item-cart-trash:hover {
+            color: tomato;
+        }
+        
+        .product-page {
+            margin-left: 15%;
+        }
+        
+        .l {
+            margin-right: 50px;
+        }
+        
+        .profile-table {
+            background: none;
+            position: absolute;
+            width: 500px;
+            padding: 10px;
+            top: 120px;
+            margin-left: 15%;
+            text-align: left;
+            border: none;
+            border-radius: 3px;
+            border-width: 1px;
+            text-align: right;
+        }
+        
+        .profile-input {
+            padding: 5px;
+            padding-left: 10px;
+            border-radius: 3px;
+            margin-left: 50px;
+            width: 250px;
+            border: 1px solid lightgrey;
+            outline: none;
+        }
+        
+        .profile-input:enabled {
+            border-color: black;
+        }
+        
+        .editbutton {
+            outline: none;
+            border: none;
+            padding: 5px;
+            width: 32px;
+            margin-left: 10px;
+            background: none;
+            font-size: 16px;
+            cursor: pointer;
+            color: black;
+        }
+        
+        .editbutton:hover {
+            color: tomato;
+        }
